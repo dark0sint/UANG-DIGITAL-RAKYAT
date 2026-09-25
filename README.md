@@ -1,4 +1,4 @@
-# 💰 UANG DIGITAL RAKYAT — API Fitur Keuangan Digital
+# UANG DIGITAL RAKYAT — API Fitur Keuangan Digital
 
 REST API Node.js + Express untuk aplikasi keuangan digital (fintech) dengan fitur:
 
