@@ -1,0 +1,27 @@
+{
+  "name": "uang-digital-rakyat",
+  "version": "1.0.0",
+  "description": "API Aplikasi Keuangan Digital - UANG DIGITAL RAKYAT (Pembayaran, Anggaran, Pembiayaan, Investasi, Keamanan)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node src/utils/seedInvestmentProducts.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "dotenv": "^16.4.5",
+    "jsonwebtoken": "^9.0.2",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^9.0.1",
+    "speakeasy": "^2.0.0",
+    "qrcode": "^1.5.3",
+    "cors": "^2.8.5",
+    "morgan": "^1.10.0",
+    "helmet": "^7.1.0",
+    "express-rate-limit": "^7.2.0"
+  }
+}
